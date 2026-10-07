@@ -1,0 +1,22 @@
+body{
+    background-color:rgb(89, 67, 53);
+}
+h1{
+    color:rgb(83, 161, 24);
+    text-align: center;
+}
+#mainClasses{
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    display:flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+
+}
+#mainClasses img{
+    width:45%;
+    max-width: 400px;
+    height:auto;
+    border-radius:10px;
+}
