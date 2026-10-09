@@ -1,9 +1,11 @@
 body{
-    background-color:rgb(89, 67, 53);
+    background-color:rgb(44, 196, 122);
 }
 h1{
-    color:rgb(83, 161, 24);
+    color:rgb(216, 219, 214);
     text-align: center;
+    font-size: 30px;
+    text-shadow: 1px 1px 1px rgb(235, 207, 0);
 }
 #mainClasses{
     color:rgb(255, 255, 255);
@@ -11,12 +13,31 @@ h1{
     display:flex;
     justify-content: center;
     gap: 100px;
-    align-items: center;
-
 }
 #mainClasses img{
     width:45%;
     max-width: 400px;
     height:auto;
     border-radius:10px;
+}
+.itembook>p{
+    background-color:seagreen;
+    margin:10px;
+    padding :10px;
+    border-radius:5px;
+    border:1px solid rgb(129, 128, 114);
+    font-size: 25px;
+    text-align:center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#classification{
+    display:flex;
+    
+    gap:30px;
+    
+}
+.itembook img{
+    max-width:300px;
+    height:auto;
+    border: 5px solid rgb(247, 225, 63);
 }
